@@ -14,10 +14,6 @@ for i in range(1995,2023):
 df_pbi.insert(0,"año",add_col)
 
 
-#plt.plot(df_pbi["año"],df_pbi["pbi msoles"])
-
-
 plt.figure(figsize=(18,6))
-#plt.plot(df_pbi["año"],df_pbi["pbi msoles"])
 plt.plot(df_pbi["año"],df_pbi["tac ndel"])
 plt.show()
